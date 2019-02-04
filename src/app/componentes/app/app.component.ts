@@ -11,7 +11,7 @@ import { Producto } from '../../clases/producto';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  name = VERSION.full;
+  version = VERSION.full;
   selectedArea: Area = new Area('0','');
   areas: Observable<Area[]>;
   productos: Observable<Producto[]>; 
