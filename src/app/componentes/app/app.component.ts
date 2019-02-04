@@ -1,5 +1,5 @@
 import { Component, OnInit, VERSION } from '@angular/core';
-import { SelectService } from '../../../servicios/select.service';
+import { SelectService } from '../../servicios/select.service';
 import { Area } from '../../clases/area';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';

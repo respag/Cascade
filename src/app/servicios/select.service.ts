@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Area } from '../app/clases/area';
-import { Producto } from '../app/clases/producto';
+import { Area } from '../clases/area';
+import { Producto } from '../clases/producto';
 
 const URL_Base ="http://localhost:59762/";
 
