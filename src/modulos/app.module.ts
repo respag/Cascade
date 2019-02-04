@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
-import { HelloComponent } from './hello/hello.component';
-import { SelectService } from './select.service';
+import { AppComponent } from '../app/Componentes/app/app.component';
+import { HelloComponent } from '../app/Componentes/hello/hello.component';
+import { SelectService } from '../servicios/select.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgArrayPipesModule } from 'angular-pipes';
 
